@@ -1,4 +1,4 @@
-import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from '../hooks/useLanguage';
 import { content } from '../i18n/content';
 
 const ICONS: Record<string, React.ReactNode> = {

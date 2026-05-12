@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useState } from 'react';
 import type { Lang } from '../i18n/content';
 
 interface LanguageContextType {
@@ -24,6 +24,4 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function useLanguage(): LanguageContextType {
-  return useContext(LanguageContext);
-}
+export { LanguageContext };
