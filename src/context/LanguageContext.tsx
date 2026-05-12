@@ -1,17 +1,6 @@
-import React, { createContext, useState } from 'react';
+import React, { useState } from 'react';
 import type { Lang } from '../i18n/content';
-
-interface LanguageContextType {
-  lang: Lang;
-  setLang: (lang: Lang) => void;
-  toggleLang: () => void;
-}
-
-const LanguageContext = createContext<LanguageContextType>({
-  lang: 'en',
-  setLang: () => {},
-  toggleLang: () => {},
-});
+import { LanguageContext } from './language-context';
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [lang, setLang] = useState<Lang>('en');
@@ -23,5 +12,3 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     </LanguageContext.Provider>
   );
 }
-
-export { LanguageContext };

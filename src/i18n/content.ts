@@ -161,13 +161,13 @@ export const content: Content = {
       tagline: 'Postres premium artesanales para pedir con más confianza en Miami.',
       instagram: 'Síguenos en @lolos.bake',
       copyright: '© 2024 LOLO\'s Bake. Hecho con amor en Miami.',
-      made_with: 'Hecho a la orden, con cariño.',
+      made_with: 'desarrollado por: SitioUno Factory',
     },
     en: {
       tagline: 'Premium artisanal desserts you can order with more confidence in Miami.',
       instagram: 'Follow us at @lolos.bake',
       copyright: '© 2024 LOLO\'s Bake. Made with love in Miami.',
-      made_with: 'Made-to-order, with care.',
+      made_with: 'desarrollado por: SitioUno Factory',
     },
   },
 };

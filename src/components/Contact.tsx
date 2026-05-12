@@ -24,7 +24,18 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate submission — connect to Formspree or backend for production
+    const message = [
+      lang === 'en' ? 'Hi! I would like to request a custom order quote.' : '¡Hola! Me gustaría pedir una cotización personalizada.',
+      `${c.form_name}: ${form.name}`,
+      `${c.form_email}: ${form.email}`,
+      form.phone ? `${c.form_phone}: ${form.phone}` : '',
+      `${c.form_occasion}: ${form.occasion}`,
+      form.date ? `${c.form_date}: ${form.date}` : '',
+      form.guests ? `${c.form_guests}: ${form.guests}` : '',
+      `${c.form_message}: ${form.message}`,
+    ].filter(Boolean).join('\n');
+
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
     setSubmitted(true);
   };
 
