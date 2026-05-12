@@ -18,12 +18,12 @@ export interface Content {
 export const content: Content = {
   meta: {
     es: {
-      title: 'LOLO\'s Bake — Pasteles Personalizados en Miami',
-      description: 'Pasteles personalizados para bodas, cumpleaños y celebraciones. Swiss buttercream artesanal, hechos a la orden en Miami.',
+      title: 'LOLO\'s Bake — Postres premium artesanales en Miami',
+      description: 'Postres premium artesanales para compradores bilingües en South Florida que buscan más cuidado, confianza y una experiencia restriction-aware.',
     },
     en: {
-      title: 'LOLO\'s Bake — Custom Cakes in Miami',
-      description: 'Custom cakes for weddings, birthdays and celebrations. Artisanal Swiss buttercream, made-to-order in Miami.',
+      title: 'LOLO\'s Bake — Premium artisanal desserts in Miami',
+      description: 'Premium artisanal desserts for bilingual South Florida buyers who want more care, more trust, and a restriction-aware experience.',
     },
   },
   nav: {
@@ -32,17 +32,17 @@ export const content: Content = {
   },
   hero: {
     es: {
-      eyebrow: 'Pasteles Personalizados en Miami',
-      headline: 'Celebraciones inolvidables,\nhechas con amor y buttercream artesanal.',
-      subheadline: 'Diseños únicos para bodas, cumpleaños y momentos especiales. Frescos, personalizados y entregados en Miami.',
+      eyebrow: 'Postres premium artesanales en South Florida',
+      headline: 'Postres hermosos,\nhechos con más cuidado y confianza.',
+      subheadline: 'Una experiencia bilingüe, premium y trust-first para familias y compradores que buscan indulgencia con más atención a sus necesidades.',
       cta_primary: 'Pedir Cotización',
       cta_secondary: 'Ver Galería',
       delivery_note: 'Entregas en Miami-Dade y Broward',
     },
     en: {
-      eyebrow: 'Custom Cakes in Miami',
-      headline: 'Unforgettable celebrations,\ncrafted with love and artisanal buttercream.',
-      subheadline: 'Unique designs for weddings, birthdays and special moments. Fresh, custom and delivered in Miami.',
+      eyebrow: 'Premium artisanal desserts in South Florida',
+      headline: 'Beautiful desserts,\nmade with more care and confidence.',
+      subheadline: 'A bilingual, premium and trust-first experience for families and buyers who want indulgence with more attention to their needs.',
       cta_primary: 'Request Quote',
       cta_secondary: 'View Gallery',
       delivery_note: 'Delivery in Miami-Dade and Broward',
@@ -51,36 +51,36 @@ export const content: Content = {
   about: {
     es: {
       label: 'Nuestra Historia',
-      headline: 'Dulces creaciones para\ntus momentos más especiales',
-      body: 'En LOLO\'s Bake, cada pastel es una obra de arte comestible. Nos especializamos en pasteles decorados a mano con nuestro signature Swiss buttercream — más ligero, más suave y más estable que el buttercream americano tradicional.\n\nCada celebración merece un postre que cuente su propia historia. Trabajamos de cerca contigo para crear diseños que reflejen tu visión, tus colores y tu estilo. Desde primeros cumpleaños hasta bodas elegantes, estamos aquí para hacer realidad tu idea.',
+      headline: 'Una marca artesanal para\npedir con más tranquilidad',
+      body: 'En LOLO\'s Bake combinamos estética premium, trabajo artesanal y una atención más cuidadosa a lo que cada cliente necesita. Nuestro signature Swiss buttercream ofrece un acabado ligero y refinado, mientras nuestra experiencia bilingüe facilita conversaciones claras desde el primer mensaje.\n\nNo prometemos imposibles ni hablamos con claims vacíos. Guiamos cada pedido con honestidad, calidez y una mentalidad trust-first para que cada familia pueda preguntar con confianza y encontrar la mejor opción para su ocasión o necesidad.',
       cta: 'Conoce más en Instagram',
     },
     en: {
       label: 'Our Story',
-      headline: 'Sweet creations for\nyour most special moments',
-      body: 'At LOLO\'s Bake, every cake is an edible work of art. We specialize in hand-decorated cakes with our signature Swiss buttercream — lighter, smoother, and more stable than traditional American buttercream.\n\nEvery celebration deserves a dessert that tells its own story. We work closely with you to create designs that reflect your vision, your colors, and your style. From first birthdays to elegant weddings, we\'re here to bring your idea to life.',
+      headline: 'An artisanal brand for\nordering with more peace of mind',
+      body: 'At LOLO\'s Bake, we combine premium aesthetics, artisanal execution, and a more thoughtful approach to what each client needs. Our signature Swiss buttercream delivers a lighter, refined finish, while our bilingual experience makes the conversation easier from the first message.\n\nWe do not make inflated claims or promise what we cannot support. We guide each order with honesty, warmth, and a trust-first mindset so families can ask with confidence and find the best fit for their occasion or dietary-aware needs.',
       cta: 'See more on Instagram',
     },
   },
   trust: {
     es: {
-      label: '¿Por Qué LOLO\'s Bake?',
-      headline: 'La diferencia está en los detalles',
+      label: '¿Por qué inspira confianza?',
+      headline: 'Más cuidado, claridad y guía personalizada',
       items: [
-        { icon: 'butterfly', title: 'Swiss Buttercream Signature', desc: 'Nuestra receta propia: más ligera, suave y estable. El finish que distingue nuestros pasteles.' },
-        { icon: 'palette', title: 'Decoración 100% Personalizada', desc: 'Cada diseño se crea exclusivamente para tu celebración. No usamos moldes genéricos.' },
-        { icon: 'sparkles', title: 'Hechos a la Orden', desc: 'Tu pastel se prepara con ingredientes frescos el día de tu evento. Nada de inventario.' },
-        { icon: 'map', title: 'Entregas en Miami', desc: 'Servicio de entrega confiable en Miami-Dade y Broward County para tu tranquilidad.' },
+        { icon: 'butterfly', title: 'Signature Swiss Buttercream', desc: 'Nuestra receta distintiva ofrece un acabado premium, ligero y elegante sin perder indulgencia.' },
+        { icon: 'palette', title: 'Consulta Bilingüe y Personalizada', desc: 'Te guiamos en inglés o español para entender tu ocasión, preferencias y necesidades antes de cotizar.' },
+        { icon: 'sparkles', title: 'Hecho con Más Cuidado', desc: 'Cada pedido se prepara a la orden con una conversación clara sobre lo que sí podemos adaptar y cómo trabajamos.' },
+        { icon: 'map', title: 'Trust-First Delivery', desc: 'Atención confiable en Miami-Dade y Broward con una ruta simple de lead generation vía WhatsApp.' },
       ],
     },
     en: {
-      label: 'Why LOLO\'s Bake?',
-      headline: 'The difference is in the details',
+      label: 'Why it feels trustworthy',
+      headline: 'More care, clarity, and personal guidance',
       items: [
-        { icon: 'butterfly', title: 'Signature Swiss Buttercream', desc: 'Our own recipe: lighter, smoother, and more stable. The finish that sets our cakes apart.' },
-        { icon: 'palette', title: '100% Custom Decoration', desc: 'Every design is created exclusively for your celebration. No generic molds.' },
-        { icon: 'sparkles', title: 'Made-to-Order', desc: 'Your cake is made with fresh ingredients on the day of your event. No inventory.' },
-        { icon: 'map', title: 'Miami Delivery', desc: 'Reliable delivery service in Miami-Dade and Broward County for your peace of mind.' },
+        { icon: 'butterfly', title: 'Signature Swiss Buttercream', desc: 'Our signature recipe delivers a premium, lighter, refined finish without losing indulgence.' },
+        { icon: 'palette', title: 'Bilingual Personal Guidance', desc: 'We guide you in English or Spanish to understand your occasion, preferences, and needs before quoting.' },
+        { icon: 'sparkles', title: 'Made with More Care', desc: 'Every order is made to order with a clear conversation about what we can adapt and how we work.' },
+        { icon: 'map', title: 'Trust-First Delivery', desc: 'Reliable service in Miami-Dade and Broward with a simple WhatsApp-led path to start the conversation.' },
       ],
     },
   },
@@ -125,8 +125,8 @@ export const content: Content = {
   contact: {
     es: {
       label: 'Cotiza tu pastel',
-      headline: 'Cuéntanos sobre tu celebración',
-      subheadline: 'Escríbenos o escríbenos por WhatsApp. Responderemos pronto con ideas y opciones para tu pastel perfecto.',
+      headline: 'Cuéntanos qué necesitas',
+      subheadline: 'Escríbenos por WhatsApp o déjanos tu solicitud. Te guiaremos con una respuesta cálida, clara y enfocada en la mejor opción para tu ocasión.',
       form_name: 'Nombre',
       form_email: 'Correo electrónico',
       form_phone: 'Teléfono / WhatsApp',
@@ -141,8 +141,8 @@ export const content: Content = {
     },
     en: {
       label: 'Get Your Quote',
-      headline: 'Tell us about your celebration',
-      subheadline: 'Send us a message or reach out on WhatsApp. We\'ll get back to you soon with ideas and options for your perfect cake.',
+      headline: 'Tell us what you need',
+      subheadline: 'Message us on WhatsApp or send your request. We will guide you with a warm, clear response focused on the best fit for your occasion.',
       form_name: 'Name',
       form_email: 'Email',
       form_phone: 'Phone / WhatsApp',
@@ -158,13 +158,13 @@ export const content: Content = {
   },
   footer: {
     es: {
-      tagline: 'Pasteles personalizados para celebraciones inolvidables en Miami.',
+      tagline: 'Postres premium artesanales para pedir con más confianza en Miami.',
       instagram: 'Síguenos en @lolos.bake',
       copyright: '© 2024 LOLO\'s Bake. Hecho con amor en Miami.',
       made_with: 'Hecho a la orden, con cariño.',
     },
     en: {
-      tagline: 'Custom cakes for unforgettable celebrations in Miami.',
+      tagline: 'Premium artisanal desserts you can order with more confidence in Miami.',
       instagram: 'Follow us at @lolos.bake',
       copyright: '© 2024 LOLO\'s Bake. Made with love in Miami.',
       made_with: 'Made-to-order, with care.',

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLanguage } from '../hooks/useLanguage';
 import { content } from '../i18n/content';
 
-const WHATSAPP_NUMBER = '13057000000';
+const WHATSAPP_NUMBER = '17862966190';
 
 export default function Header() {
   const { lang, toggleLang } = useLanguage();
